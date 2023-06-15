@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+body header h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 11rem;
+  background: #FF0099; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body header p {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 1.25rem;
+}
+body header .video-container {
+  overflow: hidden;
+}
+body header .video-container iframe {
+  overflow: hidden;
+  aspect-ratio: 16/9;
+  width: 100%;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  body header .video-container iframe {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
