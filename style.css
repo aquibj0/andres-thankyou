@@ -4,10 +4,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 body header h1 {
-  font-family: "Great Vibes", cursive;
-  font-size: 11rem;
-  background: #FF0099; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 7rem;
+  background: #FF0099;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #493240, #FF0099);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-weight: 800;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -16,9 +19,17 @@ body header h1 {
     font-size: 4rem;
   }
 }
+body header h2 {
+  font-size: 6.5rem;
+}
+@media screen and (max-width: 768px) {
+  body header h2 {
+    font-size: 4rem;
+  }
+}
 body header p {
-  color: rgba(0, 0, 0, 0.75);
-  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
 }
 body header .video-container {
   overflow: hidden;
@@ -32,5 +43,7 @@ body header .video-container iframe {
 @media screen and (max-width: 768px) {
   body header .video-container iframe {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }/*# sourceMappingURL=style.css.map */
